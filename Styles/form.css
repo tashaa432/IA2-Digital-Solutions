@@ -1,0 +1,93 @@
+/* Boat section styles */
+.boat-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 100%;
+}
+
+.notification-type {
+    display: flex;
+    flex-direction: column;
+}
+
+.notification-type label {
+    margin-bottom: 10px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjusted margin-bottom */
+}
+
+.notification-label {
+    margin-left: 5px; /* Adjusted margin-left */
+}
+
+.form-heading {
+    text-align: center;
+    color: #212529;
+}
+
+.form {
+    width: 66.666%;
+    max-width: 400px;
+    background-color: white;
+    color: #212529;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.form label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form input,
+.form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.form button[type="submit"] {
+    background-color: #063652;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Adjusting width considering padding */
+    margin-top: 10px;
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+/* Dropdown styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+}
+.notification-checkbox {
+    margin-right: -340px; /* Adjust the margin as needed */
+}
+
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1; /* Change background color on hover */
+}
+

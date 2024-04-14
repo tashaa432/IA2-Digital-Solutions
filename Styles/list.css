@@ -1,0 +1,46 @@
+.container {
+    margin-bottom: 20px; /* Add some space between the search bar and the table */
+    margin: auto;
+}
+h2.heading {
+    text-align: left; /* Align h2 to the left */
+    margin-right: auto; /* Push h2 to the left */
+}
+table {
+    margin: 0 auto; /* Center align the table */
+    border-collapse: collapse;
+    width: 100%; /* Set table width to 100% */
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+.search-bar {
+    margin-left: auto; /* Push search bar to the right */
+}
+.search-bar form {
+    display: flex;
+    align-items: center;
+}
+.search-bar input,
+.suburb-search-bar input {
+    padding: 5px;
+    
+}
+.search-bar button,
+.suburb-search-bar button {
+    background-color: #063652;
+    color: white;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+    margin-left: -5px;
+}
+.suburb-search-bar {
+    margin-left: auto; /* Push suburb search bar to the right */
+}
